@@ -12,7 +12,7 @@ MoviePitch is an AI-driven app that turns a single-line idea into an elaborate m
 
 steps:
 
-1. `git clone https://github.com/s-shemmee/MoviePitch.git`
+1. `git clone https://github.com/yao-le/moviePitch.git`
 2. `npm install`
 3. configure the OpenAI API key in env.js.
 4. `npm start`
