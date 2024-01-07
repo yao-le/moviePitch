@@ -1,21 +1,18 @@
-# co69942d6b22db314a32431fd
+# MoviePitch
 
-Quick start:
+## Overview
 
-```
-$ npm install
-$ npm start
-````
+![MoviePitch Interface](images/interface01.png)
+![MoviePitch Interface](images/interface02.png)
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+MoviePitch is an AI-driven app that turns a single-line idea into an elaborate movie concept, featuring a detailed synopsis, title, cast, and cover art, using the OpenAI API. This app harnesses the power of `gpt-3.5-turbo` model for generating text and `dall-e` for image creation. It adopts Zero-Shot and Few-Shot prompting techniques to improve the variety and richness of the content it creates.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Quick Start
 
-Happy Coding!
+steps:
+
+1. `git clone https://github.com/s-shemmee/MoviePitch.git`
+2. `npm install`
+3. configure the OpenAI API key in env.js.
+4. `npm start`
